@@ -1,12 +1,12 @@
 {
-  "name": "vendor/package-name",
-  "description": "A short description of what your Laravel package does.",
+  "name": "xmultibyte/blade-formatter",
+  "description": "Laravel package wrapper for the blade-formatter Node.js tool.",
   "keywords": [
     "laravel",
-    "package",
-    "your-keyword"
+    "blade",
+    "formatter"
   ],
-  "homepage": "https://github.com/vendor/package-name",
+  "homepage": "https://github.com/xmultibyte/blade-formatter",
   "license": "MIT",
   "authors": [
     {
@@ -16,7 +16,8 @@
   ],
   "require": {
     "php": "^8.1|^8.2|^8.3",
-    "illuminate/support": "^10.0|^11.0|^12.0"
+    "illuminate/support": "^10.0|^11.0|^12.0",
+    "symfony/process": "^6.0|^7.0"
   },
   "require-dev": {
     "orchestra/testbench": "^8.0|^9.0|^10.0",
@@ -24,21 +25,21 @@
   },
   "autoload": {
     "psr-4": {
-      "Vendor\\PackageName\\": "src/"
+      "XMultibyte\\LaravelPackage\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Vendor\\PackageName\\Tests\\": "tests/"
+      "XMultibyte\\LaravelPackage\\Tests\\": "tests/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Vendor\\PackageName\\PackageServiceProvider"
+        "XMultibyte\\LaravelPackage\\PackageServiceProvider"
       ],
       "aliases": {
-        "PackageName": "Vendor\\PackageName\\Facades\\PackageName"
+        "Package": "XMultibyte\\LaravelPackage\\Facades\\Package"
       }
     }
   },

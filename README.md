@@ -1,22 +1,24 @@
-# Laravel Package Template
+# Laravel Blade Formatter Package
 
-这是一个 Laravel 扩展包模板，包含基础目录结构、composer.json 配置、ServiceProvider 示例以及 PHPUnit + Orchestra Testbench 测试支持。
+该扩展包将 [blade-formatter](https://github.com/shufo/blade-formatter) Node.js 工具封装为 Laravel 包，并提供 `blade:format` Artisan 命令以格式化 Blade 模板。
 
 ## 安装
 
 ```bash
-composer require vendor/package-name
+composer require xmultibyte/blade-formatter
 ```
 
-## 开发
+## 使用
 
-- 修改 `composer.json` 中的 `vendor/package-name`、命名空间及作者信息
-- 在 `src/` 下编写扩展包代码
-- 在 `tests/` 下添加测试用例
+```bash
+php artisan blade:format resources/views/**/*.blade.php --write
+```
+
+更多命令参数请查看 `php artisan blade:format --help`。
 
 ## 测试
 
 ```bash
 composer install
-vendor/bin/phpunit
+composer test
 ```
