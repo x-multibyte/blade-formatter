@@ -1,0 +1,50 @@
+{
+  "name": "vendor/package-name",
+  "description": "A short description of what your Laravel package does.",
+  "keywords": [
+    "laravel",
+    "package",
+    "your-keyword"
+  ],
+  "homepage": "https://github.com/vendor/package-name",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Your Name",
+      "email": "you@example.com"
+    }
+  ],
+  "require": {
+    "php": "^8.1|^8.2|^8.3",
+    "illuminate/support": "^10.0|^11.0|^12.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^8.0|^9.0|^10.0",
+    "phpunit/phpunit": "^10.0|^11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Vendor\\PackageName\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Vendor\\PackageName\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Vendor\\PackageName\\PackageServiceProvider"
+      ],
+      "aliases": {
+        "PackageName": "Vendor\\PackageName\\Facades\\PackageName"
+      }
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
