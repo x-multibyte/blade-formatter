@@ -1,6 +1,6 @@
 <?php
 
-namespace XMultibyte\LaravelPackage\Events;
+namespace XMultibyte\BladeFormatter\Events;
 
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Broadcasting\PrivateChannel;

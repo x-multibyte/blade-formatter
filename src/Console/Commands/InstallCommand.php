@@ -1,17 +1,17 @@
 <?php
 
-namespace XMultibyte\LaravelPackage\Console\Commands;
+namespace XMultibyte\BladeFormatter\Console\Commands;
 
 use Illuminate\Console\Command;
 
 class InstallCommand extends Command
 {
-    protected $signature = 'package:install';
+    protected $signature = 'blade-formatter:install';
 
-    protected $description = "Perform package installation.";
+    protected $description = 'Perform blade-formatter installation.';
 
     public function handle(): void
     {
-
+        //
     }
 }

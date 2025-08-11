@@ -1,6 +1,6 @@
 # 目录结构说明
 
-- config/package.php 配置文件
+- config/blade-formatter.php 配置文件
 - database/migrations/ 数据库迁移文件
 - resources/assets/ 前端资源
 - resources/lang/ 语言文件

@@ -7,7 +7,7 @@ use Illuminate\Database\Migrations\Migration;
 return new class extends Migration {
     public function up(): void
     {
-        Schema::create('packages', function (Blueprint $table) {
+        Schema::create('blade_formatter', function (Blueprint $table) {
             $table->id();
 
 
@@ -17,6 +17,6 @@ return new class extends Migration {
 
     public function down(): void
     {
-        Schema::dropIfExists('packages');
+        Schema::dropIfExists('blade_formatter');
     }
 };

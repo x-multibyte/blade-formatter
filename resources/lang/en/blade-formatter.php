@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'package'         => 'Package',
-    'laravel-package' => 'Laravel Package',
+    'package'         => 'Blade Formatter',
+    'blade-formatter' => 'Blade Formatter',
 
     'install' => 'Install',
     'update'  => 'Update',
@@ -29,7 +29,7 @@ return [
         'end'                  => 'Are you sure you want to end installation?',
         'cancel'               => 'Are you sure you want to cancel installation?',
         'terms_and_conditions' => 'Do you accept our terms and conditions?',
-        'publish'              => 'Do you want to publish the package resources?',
+        'publish'              => 'Do you want to publish the blade-formatter resources?',
         'override'             => 'Do you want to override the existing files?',
     ],
     'errors'       => [

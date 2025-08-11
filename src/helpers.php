@@ -1,8 +1,8 @@
 <?php
 
-if (!function_exists('package')) {
-    function package()
+if (! function_exists('blade_formatter')) {
+    function blade_formatter()
     {
-        return app('package');
+        return app('blade-formatter');
     }
 }

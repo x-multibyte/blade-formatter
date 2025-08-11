@@ -1,8 +1,8 @@
 <?php
 
-namespace XMultibyte\LaravelPackage\Providers;
+namespace XMultibyte\BladeFormatter\Providers;
 
-use XMultibyte\LaravelPackage\Events;
+use XMultibyte\BladeFormatter\Events;
 
 class EventServiceProvider extends \Illuminate\Foundation\Support\Providers\EventServiceProvider
 {
